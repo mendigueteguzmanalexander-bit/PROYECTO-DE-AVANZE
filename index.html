@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta de Chicharrón</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #f8b500, #ec6f66);
+            margin: 0;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+        }
+        .tarjeta {
+            background-color: white;
+            max-width: 700px;
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            overflow: hidden;
+            padding: 20px;
+            animation: aparecer 1s ease-in-out;
+        }
+        @keyframes aparecer {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        header {
+            text-align: center;
+            padding: 10px;
+        }
+        header h1 {
+            margin: 0;
+            color: #d35400;
+        }
+        header p {
+            color: #555;
+        }
+        .imagen-receta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .imagen-receta img {
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        section h2 {
+            color: #e67e22;
+            margin-top: 20px;
+        }
+        ul, ol {
+            margin-left: 20px;
+            line-height: 1.6;
+        }
+        .video {
+            text-align: center;
+            margin: 20px 0;
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+            border-radius: 15px;
+        }
+        .enlaces {
+            margin: 20px 0;
+            padding: 15px;
+            background: #fbeee0;
+            border-radius: 15px;
+        }
+        .enlaces h3 {
+            color: #c0392b;
+        }
+        .enlaces a {
+            display: block;
+            margin: 8px 0;
+            text-decoration: none;
+            color: #d35400;
+            font-weight: bold;
+        }
+        .enlaces a:hover {
+            color: #e74c3c;
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tarjeta">
+        <header>
+            <h1>Receta de Chicharrón Peruano</h1>
+            <p>¡Un clásico y delicioso plato de la cocina peruana!</p>
+        </header>
+
+        <div class="imagen-receta">
+            <img src="chicharron.jpg">
+        </div>
+
+        <section>
+            <h2>Ingredientes</h2>
+            <ul>
+                <li>1 kg de panceta de cerdo</li>
+                <li>2 dientes de ajo</li>
+                <li>1 cucharadita de sal</li>
+                <li>1 cucharadita de comino</li>
+                <li>1 taza de agua</li>
+                <li>1 chorrito de aceite (opcional)</li>
+                <li>Camote frito y mote para acompañar</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Preparación</h2>
+            <ol>
+                <li>Corta la panceta de cerdo en trozos medianos.</li>
+                <li>Sazona con ajo molido, sal y comino.</li>
+                <li>Coloca los trozos en una olla con una taza de agua.</li>
+                <li>Cocina a fuego medio hasta que el agua se evapore.</li>
+                <li>El cerdo soltará su propia grasa y se dorará solo.</li>
+                <li>Fríe hasta que quede crocante por fuera y jugoso por dentro.</li>
+                <li>Sirve acompañado de camote frito y mote.</li>
+            </ol>
+        </section>
+
+        <div class="video">
+            <h2>Video de Preparación</h2>
+            <iframe src="preparacion.mp4" title="Video receta chicharrón" allowfullscreen></iframe>
+        </div>
+
+        <div class="enlaces">
+            <h3>Otras formas de preparar chicharrón:</h3>
+            <a href=https://www.recetasgratis.net/receta-de-chicharron-de-pollo-peruano-76541.html>🍗 Chicharrón de Pollo</a>
+            <a href=https://www.bing.com/ck/a?!&&p=aff115b2bcccf91e586aa8623d1fbf7d7f1186484e5d14093a7d2993b7df2e4cJmltdHM9MTc1ODY3MjAwMA&ptn=3&ver=2&hsh=4&fclid=2ac8bd8c-d10f-63e7-07ea-aefed00e62db&psq=preparacion+de+chicharron+pescado&u=a1aHR0cHM6Ly9qYW1lYXBlcnUuY29tL3JlY2V0YXMvcGxhdG9zL2NoaWNoYXJyb24tZGUtcGVzY2Fkby8>🐟 Chicharrón de Pescado</a>
+            <a href=https://www.bing.com/ck/a?!&&p=aeda8eca049c3d4cc1712d8c538e2ac4d7c73b3eb48602bf24541a6632d51c2aJmltdHM9MTc1ODY3MjAwMA&ptn=3&ver=2&hsh=4&fclid=2ac8bd8c-d10f-63e7-07ea-aefed00e62db&psq=preparacion+de+chicharron+pato&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1nUjZkSzR0YU96TQ>🦆 Chicharrón de Pato</a>
+            <a href=https://www.bing.com/ck/a?!&&p=f6dce890a9235728d46632c26be40e469c09b5219ec19889371d654fd6d7c1eeJmltdHM9MTc1ODY3MjAwMA&ptn=3&ver=2&hsh=4&fclid=2ac8bd8c-d10f-63e7-07ea-aefed00e62db&psq=preparacion+de+chicharron+mixto&u=a1aHR0cHM6Ly93d3cuc2Nvb2xpbmFyeS5jb20vZXMvcmVjZXRhcy9zL2NoaWNoYXJyb24tbWl4dG8>🥘 Chicharrón Mixto</a>
+        </div>
+
+        <footer>
+            <p>© 2025 Recetas Peruanas - ¡Disfruta tu chicharrón!</p>
+        </footer>
+    </div>
+
+</body>
+</html>
+
+
